@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Información</title>
+    <link rel="shortcut icon" href="./img/pic.png">
+</head>
+<body class="login">
+
+    <div class="container w-75 bg-primary mt-5 rounded shadow">
+        <div class="row align-items-stretch">
+            <div class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-6 rounded">
+
+            </div>
+            <div class="col bg-white p-5 rounded-end">
+                <div class="text-end">
+                    <img src="./img/Casco.png" width="50" alt="">
+                </div>
+
+                <h2 class="fw-bold text-center py-5">Contactenos</h2>
+
+                <!-- Solicitud de información -->
+                <form action="#">
+                    <div class="mb-4">
+                        <label for="Nombre" class="form-label">Nombre Completo</label>
+                        <input type="text" class="form-control" name="Nombre">
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="form-label">Correo Electronico</label>
+                        <input type="email" class="form-control" name="email">
+                    </div>
+                    <div class="mb-4">
+                        <label for="Edad" class="form-label">Edad</label>
+                        <input type="number" class="form-control" name="Edad">
+                    </div>
+                    <div class="mb-4">
+                        <label for="Genero" class="form-label">Genero</label>
+                        <p></p>
+                        <input type="radio" name="Genero" id="Frecuencia" value="1" class="btn border-radius-sm">  Hombre
+                        <input type="radio" name="Genero" id="Frecuencia" value="2" class="btn border-radius-sm">  Mujer
+                        <input type="radio" name="Genero" id="Frecuencia" value="3" class="btn border-radius-sm">  Otro
+                    </div>
+                    <div class="mb-4">
+                        <label for="Info" class="form-label">Información que desea Conocer</label>
+                        <input type="text" class="form-control" name="Info">
+                    </div>
+
+                    <!-- Sección de botones -->
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                        <p></p>
+                    </div>
+                    <div class="d-grid">
+                        <a href="Inicio.html" class="btn btn-primary">Regresar</a> 
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

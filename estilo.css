@@ -1,0 +1,51 @@
+.img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.fondo{
+    background-color: rgb(184, 46, 28);
+    color: rgb(184, 46, 28);
+}
+
+.portada{
+    margin-top: 50px;
+    height: 800px;
+}
+
+.imgCarousel{
+    height: 800px;
+}
+
+.navbar{
+    padding: 1rem;
+    background-color: grey;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#section_1{
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: rgb(27, 27, 27);
+    border-radius: 15px;
+}
+
+
+/* Login CSS */
+
+.bg{
+    background-image: url(img/Logo.png);
+    background-position: center center;
+}
+
+.login{
+    background-color: #ffe259;
+    background: linear-gradient(to right, #ffa751, #ffe259);
+}
